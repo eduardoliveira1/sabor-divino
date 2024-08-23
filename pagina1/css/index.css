@@ -1,12 +1,21 @@
-*{
-    /*
-    font-family: ;
-    */
-}
+
+  @font-face {
+        
+        font-family: Aclonica;
+        src: url(./fonts/Aclonica.ttf);
+      }
+      @font-face {
+        
+        font-family: Akronim;
+        src: url(./fonts/Akronim-Regular.ttf);
+      }
+
+     
 
 body{
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    font-family: Aclonica;
 }
 
 header{
@@ -50,4 +59,7 @@ nav a:hover{
     padding: 5px;
     background-color: #9A031E;
     color: #fff;
+}
+section{
+    font-family: Aclonica;
 }
