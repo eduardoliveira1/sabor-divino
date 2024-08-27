@@ -1,68 +1,48 @@
-@font-face {
-    
-    font-family: Aclonica;
-    src: url(../fonts/Aclonica.ttf);
-}
-
-@font-face {
-    font-family: Akronim;
-    src: url(../fonts/Akronim-Regular.ttf);
-}     
-
-@font-face {
-    font-family: Fontdinerswanky;
-    src: url(../fonts/FontdinerSwanky-Regular.ttf);
-}   
-
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 body{
-    font-family: 'Aclonica';
-    font-size: 14px;
-    max-width: 1920px;
     color: white;
+    background-image: url(../img/depositphotos_49203401-stock-illustration-pizza-background\ 1.jpg);
 }
 
 header{
     background-color: #9A031E;
-    height: 30px;
+    height: 20px;
     display: flex;
-    align-items: center;
     
 }
 
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url('../img/depositphotos_49203401-stock-illustration-pizza-background\ 1.jpg');
     width: 100%;
-    margin-top: 105px;
-    height: 5px;    
-    
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav img{
-    display: block;
-    width: 200px;
-    margin-top: 20px;
-    max-width: 440px;
-    margin-left: 40px;
-    
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.div-img{
+    left: 0;
 }
 
 a{
-    text-decoration: none;
     color: black;
-    font-weight: bolder;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav a{
-    margin-left: 35px;
+    margin-left: 20px;
 }
 
 nav a:hover{
@@ -72,29 +52,25 @@ nav a:hover{
 #nav-button{
     background-color: #9A031E;
     color: white;
-    padding: 6px;
+    padding: 2px;
     margin-right: 30px;
 }
 
 .text-header{
-    font-family: 'Fontdinerswanky';
-    margin-top: 70px;
-    height: 60px; 
-    font-size: 30px;
+    margin-top: 40px;
     background-color: #9A031E;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#user{
-    width: 50px;
+.text-header img{
+    width: 30px;
 }
 
 .user-div{
-    position: absolute;
-    margin-top: 9px;
-    right: 30px;
+    justify-content: flex-end;
 }
 
 section img{
@@ -147,11 +123,11 @@ b{
     display: flex;
     align-items: center;
     gap: 1rem;
-  }
-  
+    }
+    
 .subtitle-wrapper hr {
     flex: 1;
-  }
+    }
 
 .promocoes p{
     color: #FB8B24;
@@ -180,9 +156,9 @@ b{
 }
 
 .coluna{
-   text-align: left;
-   padding: 20px;
-   margin: 0;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
 }
 
 h4{
