@@ -9,6 +9,11 @@
     src: url(../fonts/Akronim-Regular.ttf);
 }     
 
+@font-face {
+    font-family: Fontdinerswanky;
+    src: url(../fonts/FontdinerSwanky-Regular.ttf);
+}   
+
 *{
     margin: 0;
     padding: 0;
@@ -72,9 +77,9 @@ nav a:hover{
 }
 
 .text-header{
+    font-family: 'Fontdinerswanky';
     margin-top: 70px;
-    height: 60px;
-    font-family: 'Akronim';
+    height: 60px; 
     font-size: 30px;
     background-color: #9A031E;
     display: flex;
@@ -138,8 +143,24 @@ b{
     text-align: center;
 }
 
+.subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+.subtitle-wrapper hr {
+    flex: 1;
+  }
+
 .promocoes p{
     color: #FB8B24;
+}
+
+.lado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
 }
 
 #promo1{
@@ -152,11 +173,16 @@ b{
 
 #promo2{
     right: 0;
-    
     border: 1px solid black;
     width: 500px;
     height: 200px;
     
+}
+
+.coluna{
+   text-align: left;
+   padding: 20px;
+   margin: 0;
 }
 
 h4{
@@ -186,12 +212,26 @@ h3{
     
 }
 
+.div-preco1{
+    text-align: right;
+    
+}
+
 .preco{
     color: #9A031E;
     margin-top: 5px;
 }
 
 #salgada{
+    font-family: 'Akronim';
+    color: #9A031E;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#doce1{
+    text-align: center;
     font-family: 'Akronim';
     color: #9A031E;
     font-weight: bold;
