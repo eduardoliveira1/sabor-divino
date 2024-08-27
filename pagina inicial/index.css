@@ -214,3 +214,32 @@ h3{
     font-size: 25px;
     margin-top: 15px;
 }
+
+
+.cardapio{
+    color: black;
+    text-align: center;
+
+}
+ 
+.circulo{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.imgpizza{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+    
+.Quemsomos{ 
+    text-align: center;
+     color: black;
+}
