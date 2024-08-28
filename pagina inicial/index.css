@@ -231,15 +231,36 @@ h3{
     
 }
 
-.imgpizza{
+#para1{
+    padding: 20px;
+}
 
-    width: 100px;
-    height: 100px;
+
+.imgpizza{
     border-radius: 50%;
-    
+    border: 2px solid black;
 }
     
 .Quemsomos{ 
     text-align: center;
      color: black;
+}
+
+.rodapé{
+    color: black;
+}
+.alinha{
+    display: flex;
+}
+.alinhacoluna{
+    display: grid;
+    
+}
+.linhafooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+#alinhartexto{
+    text-align: center;
 }
