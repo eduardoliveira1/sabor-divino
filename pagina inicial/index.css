@@ -30,7 +30,7 @@ nav img{
     margin-top: 30px;
     margin-left: 20px;
 }
-
+/*pagina principa e cardapio*/
 .div-img{
     left: 0;
 }
@@ -118,13 +118,13 @@ b{
     color: black;
     text-align: center;
 }
-
+/*pagina principa e cardapio*/
 .subtitle-wrapper {
     display: flex;
     align-items: center;
     gap: 1rem;
     }
-    
+/*pagina principa e cardapio*/  
 .subtitle-wrapper hr {
     flex: 1;
     }
@@ -240,7 +240,12 @@ h3{
     border-radius: 50%;
     border: 2px solid black;
 }
-    
+.imgpizza1{
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 100px ;
+    height: 150px;
+}    
 .Quemsomos{ 
     text-align: center;
      color: black;
@@ -261,6 +266,14 @@ h3{
     justify-content: space-around;
     align-items: flex-end;
 }
+
 #alinhartexto{
     text-align: center;
+}
+/*cardapio*/
+.alinhartodos{
+  display: flex;
+}
+.biaxoend{
+   align-items: flex-end;
 }
