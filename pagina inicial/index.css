@@ -1,3 +1,16 @@
+@font-face {
+    font-family:'Aclonica';
+    src:url("../fonts/Aclonica.ttf");
+}
+@font-face {
+    font-family:'Akronim';
+    src:url("../fonts/Akronim-Regular.ttf");
+}
+@font-face {
+    font-family:'fontdiner';
+    src:url("../fonts/FontdinerSwanky-Regular.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +37,9 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
+.div-links{
+    font-family: Aclonica;
+}
 nav img{
     width: 150px;
     margin-top: 30px;
@@ -64,15 +79,21 @@ nav a:hover{
     justify-content: center;
     align-items: center;
 }
+.text-header p{
+ font-family: fontdiner;
+}
 
-.text-header img{
+
+.user-div img{
+    top: 60px;
     width: 30px;
+    position: absolute;
+    margin-right: 5px;
 }
+#user{
 
-.user-div{
-    justify-content: flex-end;
+    right: 0;
 }
-
 section img{
     height: 200px;
     width: 100%;
@@ -102,8 +123,9 @@ section img{
     color: white;
     margin-right: 30px;
     font-weight: bold;
-    font-size:x-large;
+    font-size: x-large;
     text-align: center;
+    font-family: Aclonica;
 }
 
 b{
@@ -112,17 +134,22 @@ b{
 
 .promocoes{
     background-image: url('../img/depositphotos_49203401-stock-illustration-pizza-background\ 1.jpg');
-    height: 500px;
+    height: 400px;
     padding: 20px;
     margin-top: 40px;
+    padding-block-end: 80px;
     color: black;
-    text-align: center;
+    text-align: center; 
+}
+.promocoes h3{
+ font-family: Aclonica;
 }
 /*pagina principa e cardapio*/
 .subtitle-wrapper {
     display: flex;
     align-items: center;
     gap: 1rem;
+    font-family: Aclonica;
     }
 /*pagina principa e cardapio*/  
 .subtitle-wrapper hr {
@@ -134,6 +161,7 @@ b{
 }
 
 .lado{
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center
@@ -142,25 +170,45 @@ b{
 #promo1{
     border: 1px solid black;
     width: 300px;
-    text-align: left;
+    height: 300px;
     padding: 20px;
+    font-family: Aclonica;
+ 
     
+}
+
+#textleft{
+      text-align: left;
+      height: 170px;
+}
+#textleft h4{
+    padding-top: 15px;
+}
+.divpara{
+    width: 150px;
+    text-align: left;
 }
 
 #promo2{
+    display: flex;
     right: 0;
-    border: 1px solid black;
+    border: 1px solid black; 
     width: 500px;
     height: 200px;
-    
+    font-family: Aclonica;
 }
 
 .coluna{
+    float: left;
     text-align: left;
     padding: 20px;
     margin: 0;
+    width: 290px;
+    
 }
-
+.coluna p{
+    color: #9A031E ;
+}
 h4{
     font-weight: normal;
 }
@@ -181,16 +229,16 @@ h3{
 #promo1 p{
     color: #9A031E;
     margin-bottom: 20px;
-}
-
-.div-preco{
-    text-align: center;
+    
     
 }
+
+
 
 .div-preco1{
-    text-align: right;
-    
+    width: 120px;
+    height: 150px;
+    align-content: center;
 }
 
 .preco{
@@ -207,12 +255,14 @@ h3{
 }
 
 #doce1{
-    text-align: center;
+   
+    
+   
     font-family: 'Akronim';
     color: #9A031E;
     font-weight: bold;
     font-size: 25px;
-    margin-top: 15px;
+    
 }
 
 
@@ -231,21 +281,35 @@ h3{
     
 }
 
-#para1{
-    padding: 20px;
+#para2{
+ padding-top: 20px;
+}
+#para3{
+    padding-block-end: 20px;
+}
+.tamanholetra{
+    font-size: 20px;
+}
+ 
+.imgpizza0 img{
+    width: 200px;
+    border-radius: 550px;
+    border: 2px solid black;
+    margin: 20px;
+}
+.imgpizza1 img{
+    width: 200px;
+    border-radius: 550px;
+    border: 2px solid black;
+    margin: 20px;
+}
+.imgpizza2 img{
+    width: 200px;
+    border-radius: 550px;
+    border: 2px solid black;
+    margin: 20px;
 }
 
-
-.imgpizza{
-    border-radius: 50%;
-    border: 2px solid black;
-}
-.imgpizza1{
-    border-radius: 50%;
-    border: 2px solid black;
-    width: 100px ;
-    height: 150px;
-}    
 .Quemsomos{ 
     text-align: center;
      color: black;
@@ -253,26 +317,93 @@ h3{
 
 .rodapé{
     color: black;
+    
 }
 .alinha{
-    display: flex;
+   
+    flex-direction: column;
+    
+}
+.alinha h5{
+    text-align: center;
+    font-size: 11px;
 }
 .alinhacoluna{
     display: grid;
     
+    
+}
+.redessociais h4{
+    font-size: 11px;
+}
+.redessociais div{
+    display: flex;
+}
+
+#tamanhologo{
+    display: flex;
+    align-items: center;
+    width: 85px;
+    
+    
+}
+#tamanhologo img{
+    width: 25px;
+}
+#tamanhologo p{
+    font-size: 9px;
 }
 .linhafooter{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
-
+.atender{
+    font-size: 10px;
+    text-align: center;
+}
+.atender h4{
+    width: 160px;
+    padding: 5px;
+}
+.logofooter img{
+    width: 180px;
+}
+.imgredes img{
+    width: 40px;
+}
 #alinhartexto{
     text-align: center;
 }
+#alinhartexto h4{
+    font-size: 11px;
+}
+#alinhartexto img{
+    width: 200px;
+}
+.linhavermelha{
+ height: 20px;
+ background-color: #9A031E;
+
+}
+
 /*cardapio*/
+
+.promocoescardapio{
+    height: 200px;
+    color: black;
+    text-align: center;
+
+}
+#valorespizza{
+    display: flex;
+    justify-content: center;
+}
+
 .alinhartodos{
-  display: flex;
+align-items: center;
+display: flex;
+  
 }
 .biaxoend{
    align-items: flex-end;
